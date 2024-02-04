@@ -24,25 +24,23 @@ A simple Recipe page website! Built by me, V.Bispo, as a project to be submitted
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [usasag.github.io/recipe-page](https://usasag.github.io/recipe-page)
 
 ## My process
 
-At first, i wanted to use TailwindCSS, but then resorted to using pure CSS and HTML technology, as it is only intended to be a static webpage with a QR Code. I decided to use Tailwind for more complex projects.
+I did not use any CSS preprocessor this time, and i wanted to tackle the challenge with hands-on proper CSS and HTML.
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS custom properties and @media
 - Flexbox
-- CSS Grid
-- Terraform (for cloud hosting)
 - Responsive workflow
 
 ### What I learned
 
-I learned that not always we NEED to use more complex tools to make a simple project, we can start by using the basics, we can still make beautiful responsive webpages with them.
+I learned that developing the front-end of a website requires more creativity than technical prowess, in fact.
+It is a creative process in which you can plan a website using digital tools and then the only technical challenge is only the start of the process.
 
 ### Continued development
 
@@ -50,7 +48,7 @@ I seem to have had a very good understanding of HTML and CSS while building this
 
 ### Useful resources
 
-- [GitHub Copilot](https://github.com/features/copilot) - GitHub Copilot was my goto when i was confused why something wasn't working the way i had intended, and helped me making this webpage. I really liked this AI duet pattern of development, not letting the AI drive the entire project, but help me being more productive and understand concepts i didn't know or forgot along the way.
+- [GitHub Copilot](https://github.com/features/copilot) - GitHub Copilot was my autocomplete tool and provides a lot of utility when it comes to productivity, i definitely recommend for anyone who is willing to use it.
 - [W3S Schools](https://www.w3schools.com/html/default.asp) - This is an amazing website with easy-to-access documentation on many programming languages, i used it to understand deeper contexts of what i was doing.
 
 ## Author
