@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif:wght@400;700&display=swap');
+
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 62%, 90%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    background-color: var(--rose-white);
+    font-family: 'Outfit', 'Young-serif', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Young-serif', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--nutmeg);
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: var(--dark-raspberry);
+    margin-bottom: 1rem;
+}
+
+b {
+    color: var(--wenge-brown);
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 80vw;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem 0.8rem 1.5rem;
+    background-color: var(--white);
+    border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    .container {
+    max-width: 720px;
+    max-height: 90%;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem 0.8rem 1.5rem;
+}
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    block-size: auto;
+}
+
+tr {
+    border-bottom: 1px solid var(--nutmeg);
+    border: 1px solid var(--nutmeg);
+}
+
+tr:first-child {
+    border-top: 1px solid var(--nutmeg);
+}
+
+td, th {
+    padding: 1rem 0.5rem;
+    text-align: left;
+}
+
+th {
+    font-weight: 700;
+    background-color: var(--dark-raspberry);
+    color: var(--white);
+    opacity: 0.9;
+}
